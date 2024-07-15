@@ -21,13 +21,13 @@
 
 
 <section>
-    <button class="bg-yellow-500 hover:bg-blue-700 text-white font-bold mt-5 ml-2 px-2 rounded " on:click={createKeys}> Generate New Wallet Keys</button>
+    <button class="bg-blue-500 hover:bg-green-700 text-white font-bold mt-5 ml-2 px-2 rounded " on:click={createKeys}> Generate New Wallet Keys</button>
     <p class="mt-4" class:fade={!showKey}  >Private Key WIF format is <span class="wif" id="wif">{WIF}</span></p>
     <p class="mt-4" class:fade={!showKey}  >Your Bitcoin Address is <span class="wif" id="address">{address}</span></p>
 </section>
 <style>
     .wif{
-  color: rgb(52, 18, 224); 
+  color: rgb(224, 18, 18); 
 }
    .fade {
     opacity: 0; /* Initially hidden */
